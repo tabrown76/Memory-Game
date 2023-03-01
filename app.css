@@ -1,0 +1,70 @@
+h1 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  body {
+    background-color: lightskyblue;
+  }
+  
+  .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  #game div {
+    border: 1px solid black;
+    border-radius: 0px 10px 0px 10px;
+    width: 15%;
+    height: 200px;
+    margin: 10px;
+    background-color: rgb(102, 188, 138);
+  }
+  
+  .no-click {
+    pointer-events: none;
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .left {
+    grid-column: 1; 
+    float: left;
+    margin-left: 2%; 
+  }
+  
+  .leftMiddle {
+    grid-column: 2;
+  }
+  
+  #timer {
+    display: inline-block;
+    grid-column: 3;
+    border: red 2px solid;
+    margin: 0 auto;
+  }
+  
+  .rightMiddle {
+    grid-column: 4;
+  }
+  
+  .right {
+    grid-column: 5;
+    float: right;
+    margin-right: 2%;
+  }
